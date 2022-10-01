@@ -5,9 +5,22 @@
    padding-right: 3em;
 }
 
+.home-font {
+   font-family: 'Ms Madi';
+   text-align: left;
+   font-size: 5em;
+   padding-left: .5em;
+}
+
+.home-image {
+   z-index: -1;
+   position: relative;
+}
+
 .home-header {
-   border: 2px solid red;
+   /* border: 2px solid red; */
    margin-top: 1em;
+   /* background-color: rgba(128, 128, 128, 0.493); */
 }
 
 .home-body {

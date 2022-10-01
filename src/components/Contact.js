@@ -5,10 +5,30 @@ const Contact = () => {
    const [firstName, setFirstName] = useState('')
    const [lastName, setLastName] = useState('')
    const [email, setEmail] = useState('')
-   const [comment, setComment] = useState('')
+   const [comment, setComment] = useState([])
+
 
    const handleSubmit = ((e) => {
-      e.preventDefault();
+      e.preventDefault()
+      // setFirstName('');
+      // setLastName('');
+      // setEmail('');
+      // setTextBox('');
+
+      // fetch('http://localhost:3000/comment', {
+      //    method: "POST",
+      //    headers: {
+      //       "Content-Type": "application/json"
+      //    },
+      //    body: JSON.stringify({
+      //       firstName: firstName,
+      //       lastName: lastName,
+      //       email: email,
+      //       textBox: textBox
+      //    }),
+      // })
+      //    .then((res) => res.json())
+      //    .then((newComment) => handleAddComment(newComment))
    })
 
    return (

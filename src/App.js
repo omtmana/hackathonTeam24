@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Router>
         <nav className='nav'>
-          <Link to='/'> Home </Link>
-          <Link to='/contact'> Contact </Link>
-          <Link to='/questions'> Questions </Link>
-          <Link to='/availableHousing'> Housing </Link>
+          <Link to='/' style={{ textDecoration: 'none' }}> Home </Link>
+          <Link to='/contact' style={{ textDecoration: 'none' }}> Contact </Link>
+          <Link to='/questions' style={{ textDecoration: 'none' }}> Questions </Link>
+          <Link to='/availableHousing' style={{ textDecoration: 'none' }}> Housing </Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />}/>

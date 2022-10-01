@@ -1,0 +1,21 @@
+.home {
+   display: flex;
+   flex-direction: column;
+   padding-left: 3em;
+   padding-right: 3em;
+}
+
+.home-header {
+   border: 2px solid red;
+   margin-top: 1em;
+}
+
+.home-body {
+   border: 2px solid pink;
+   margin-top: 1em;
+}
+
+.home-footer {
+   border: 2px solid blue;
+   margin-top: 1em;
+}

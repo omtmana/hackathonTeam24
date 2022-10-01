@@ -4,3 +4,5 @@ const Questions = () => {
       <p> Questions Page </p>
    )
 }
+
+export default Questions;

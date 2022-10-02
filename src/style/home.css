@@ -1,8 +1,10 @@
 .home {
    display: flex;
-   flex-direction: column;
-   padding-left: 3em;
-   padding-right: 3em;
+   /* flex-direction: column; */
+   padding-left: 8em;
+   /* padding-right: 3em; */
+   justify-content: baseline;
+   align-items: center;
 }
 
 .home-font {
@@ -14,21 +16,34 @@
 
 .home-image {
    z-index: -1;
-   position: relative;
+   width: 50em;
+
+   /* position: relative; */
+}
+
+.home-button {
+   background-color: white;
+   border: 1px solid black;
+   border-radius: .5em;
+   height: 2em;
+   width: 8em;
 }
 
 .home-header {
    /* border: 2px solid red; */
-   margin-top: 1em;
+   /* margin-top: 1em; */
+   margin-top: 20em;
+   /* align-items: left; */
+   justify-content: left;
    /* background-color: rgba(128, 128, 128, 0.493); */
 }
 
 .home-body {
-   border: 2px solid pink;
+   /* border: 2px solid pink; */
    margin-top: 1em;
 }
 
-.home-footer {
+/* .home-footer {
    border: 2px solid blue;
    margin-top: 1em;
-}
+} */

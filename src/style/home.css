@@ -5,6 +5,7 @@
    /* padding-right: 3em; */
    justify-content: baseline;
    align-items: center;
+   /* float: left; */
 }
 
 .home-font {
@@ -41,6 +42,16 @@
 .home-body {
    /* border: 2px solid pink; */
    margin-top: 1em;
+}
+
+.home-welcome {
+   padding-top: 4em;
+   height: 10em;
+}
+
+.start-button {
+   background-color: rgba(136, 136, 231, 0.496);
+   color: white;
 }
 
 /* .home-footer {
